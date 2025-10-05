@@ -1,0 +1,53 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+env/
+.venv/
+
+# Django stuff:
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+local_settings.py
+*.mo
+
+# PyCharm / VSCode
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.*
+
+# Coverage reports
+htmlcov/
+.coverage
+.tox/
+.nox/
+.pytest_cache/
+.cache
+
+# Celery beat schedule file
+celerybeat-schedule
+
+# Django migrations (optional; include if you want to track them)
+# **/migrations/
+# **/migrations/*.py
+# !**/migrations/__init__.py
+
+# Sphinx documentation
+docs/_build/
